@@ -1,0 +1,42 @@
+body{
+
+    
+    background-image: url(背景图.jpg);
+    background-size: cover;
+    background-attachment: fixed;  /* 固定背景不随内容滚动 */
+    background-position: center;  /* 背景图居中显示 */
+    background-repeat: no-repeat; /* 禁止背景图重复 */
+    margin: 0;                   /* 移除默认边距 */
+    min-height: 100vh;           /* 确保背景覆盖整个视口 */ 
+}
+.介绍{
+    background-color: rgba(255, 255, 255, 0.0);
+    position: absolute; /* 设置为绝对定位 */
+    top: 0; /* 距离顶部 0px */
+    right: 0; /* 距离右侧 0px */
+    
+}
+.介绍 button{
+    opacity: 0.7;
+    height: 30px;
+    margin: 5px;
+}
+
+#头像预览{
+    margin-top: 25px;
+    margin-left: 25px;
+    border-radius: 100%;
+    cursor: pointer;
+    }
+#姓名{
+    margin: 0;
+    margin-top: 1px;
+    margin-left: 35px;
+    
+}
+#个人简介{
+    margin-left: 35px;
+    margin-top: 1px;
+ 
+}
+

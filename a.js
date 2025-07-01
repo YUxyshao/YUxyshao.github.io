@@ -1,4 +1,14 @@
-document.getElementById('but1').addEventListener('click', function() {
-  new Audio('7.mp3').play();
-  alert('别走浩龙哥,让我五星钻豹最后给你唱一首歌吧');
-  });
+const 图片点击 = document.getElementById("头像预览");
+图片点击.addEventListener("click" ,function(){
+  alert("你点个屁啊")
+});
+
+const 关于 = document.getElementById("关于");
+关于.addEventListener("click",function(){
+  alert("没事做的网站，刚学的")
+});
+
+const QQ号 = document.getElementById("qq号");
+QQ号.addEventListener("click",function(){
+  alert("3590906525")
+});
