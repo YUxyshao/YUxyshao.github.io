@@ -1,6 +1,13 @@
+
+img, video { 
+    max-width: 100%; height: auto; /* 媒体元素不溢出 */ 
+  }
+  @media (max-width: 768px) {
+    * { box-sizing: border-box; } /* 怪异盒子模型（可选） */
+  }
 body{
 
-    
+     /* 字体自动缩放 */
     background-image: url(背景图.jpg);
     background-size: cover;
     background-attachment: fixed;  /* 固定背景不随内容滚动 */
@@ -8,7 +15,15 @@ body{
     background-repeat: no-repeat; /* 禁止背景图重复 */
     margin: 0;                   /* 移除默认边距 */
     min-height: 100vh;           /* 确保背景覆盖整个视口 */ 
+    backdrop-filter:blur(3px);
+    
 }
+body hr{
+    border: none;         /* 移除默认边框 */
+    height: 4px;          /* 设置线条粗细 */
+    background-color: rgb(0, 0, 0); /* 设置线条颜色 */
+    margin: 20px 0
+} 
 .介绍{
     background-color: rgba(255, 255, 255, 0.0);
     position: absolute; /* 设置为绝对定位 */
@@ -39,4 +54,11 @@ body{
     margin-top: 1px;
  
 }
-
+.文章1{
+    margin: 35px;
+    width: 350px;
+    height: 250px;
+    border-radius: 50px;
+    background-color: aliceblue;
+}
+.文章
